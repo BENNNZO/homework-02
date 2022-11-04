@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benjamin Phillips</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+<body> 
+    <div class="intro-container">
+        <div class="intro-text">
+            <div class="static-text">
+                BENJAMIN PHILLIPS
+                <div class="animated-text">BENJAMIN PHILLIPS</div>
+                <div class="cursor-container">
+                    <div class="text-cursor">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <div id="background-container">   
+        <div id="text-cursor">
+            <div class="background"></div>
+            <div class="background background-02"></div>
+            <div class="background background-03"></div>
+        </div>
+    </div>
+    <div class="sections-selection">
+        <div class="section-button" onclick="sectionSelection(1)">ABOUT ME</div>
+        <div class="section-button" onclick="sectionSelection(2)">PROJECTS</div>
+        <div class="section-button" onclick="sectionSelection(3)">CONTACT ME</div>
+    </div>
+    <div class="contact-options-container">
+        <div class="instagram"></div>
+        <div class="snapchat"></div>
+        <div class="linkedin"></div>
+        <div class="email"></div>
+    </div>
+    <section class="section-selection-container" id="section-container">
+        <div class="section-container" id="section-one" onclick="SectionClick(1)">
+            <div class="section-title">
+                <div class="section-title-letter" letter="A">A</div>
+                <div class="section-title-letter" letter="B">B</div>
+                <div class="section-title-letter" letter="O">O</div>
+                <div class="section-title-letter" letter="U">U</div>
+                <div class="section-title-letter title-space" letter="T">T</div>
+                <div class="section-title-letter" letter="M">M</div>
+                <div class="section-title-letter" letter="E">E</div>
+                <div class="section-title-bounding-box"></div>
+            </div>
+            <div class="section-content" id="about-me-contents">
+                <img src="./assets/img/Me.png" alt="Picture Of Me">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quos, dicta illo officiis fugit amet? Architecto, reprehenderit vitae. Saepe suscipit tenetur ea autem. Obcaecati magni, deleniti, quisquam quaerat minus enim nobis tempora pariatur nisi maxime culpa ab voluptas quo iusto.</p>
+            </div>
+        </div>
+        <div class="section-container" id="section-two" onclick="SectionClick(2)">
+            <div class="section-title">
+                <div class="section-title-letter" letter="P">P</div>
+                <div class="section-title-letter" letter="R">R</div>
+                <div class="section-title-letter" letter="O">O</div>
+                <div class="section-title-letter" letter="J">J</div>
+                <div class="section-title-letter" letter="E">E</div>
+                <div class="section-title-letter" letter="C">C</div>
+                <div class="section-title-letter" letter="T">T</div>
+                <div class="section-title-letter" letter="S">S</div>
+                <div class="section-title-bounding-box"></div>
+            </div>            
+            <div class="section-content" id="projects-contents">
+                <div class="projects-content-container">
+                    <a href="#">
+                        <div class="projects-content">
+                            <img src="./assets/img/Project.png" alt="Project Picture">
+                            <p>PROJECT</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="projects-content">
+                            <img src="./assets/img/Project.png" alt="Project Picture">
+                            <p>PROJECT</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="projects-content">
+                            <img src="./assets/img/Project.png" alt="Project Picture">
+                            <p>PROJECT</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="projects-content-container">
+                    <a href="#">
+                        <div class="projects-content">
+                            <img src="./assets/img/Project.png" alt="Project Picture">
+                            <p>PROJECT</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="projects-content">
+                            <img src="./assets/img/Project.png" alt="Project Picture">
+                            <p>PROJECT</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="projects-content">
+                            <img src="./assets/img/Project.png" alt="Project Picture">
+                            <p>PROJECT</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="section-container" id="section-three" onclick="SectionClick(3)">
+            <div class="section-title">
+                <div class="section-title-letter" letter="C">C</div>
+                <div class="section-title-letter" letter="O">O</div>
+                <div class="section-title-letter" letter="N">N</div>
+                <div class="section-title-letter" letter="T">T</div>
+                <div class="section-title-letter" letter="A">A</div>
+                <div class="section-title-letter" letter="C">C</div>
+                <div class="section-title-letter title-space" letter="T">T</div>
+                <div class="section-title-letter" letter="M">M</div>
+                <div class="section-title-letter" letter="E">E</div>
+                <div class="section-title-bounding-box"></div>
+            </div>
+            <div class="section-content" id="contact-me-content">
+                <p id="WIP">WORK IN PROGRESS...</p>
+            </div>
+        </div>
+    </section>  
+    <div class="cursor-containerjs">
+        <div id="cursor-static"></div>
+        <div id="cursor-animated"></div>
+    </div>
+    <script src="./assets/scripts/script.js"></script>
+</body>
+</html>
